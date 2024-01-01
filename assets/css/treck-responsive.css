@@ -2189,7 +2189,7 @@
 
     .main-menu-two__left {
         justify-content: space-between;
-        flex: 1;
+        flex: 0;
     }
 
     .main-slider-two__shadow {
