@@ -4897,6 +4897,7 @@ ul {
 }
 
 .team-one__img {
+  height: 270px;
   position: relative;
   display: block;
   z-index: 2;
@@ -4935,6 +4936,9 @@ ul {
   width: 100%;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
+  /* Edited CSS */
+  height: 100%;
+  object-fit: contain;
 }
 
 .team-one__single:hover .team-one__img img {
@@ -5018,7 +5022,7 @@ ul {
 .team-one__content {
   position: relative;
   display: block;
-  padding: 23px 30px 23px;
+  padding: 23px 28px 23px;
   background-image: -moz-linear-gradient(90deg, rgb(242, 237, 235) 0%, rgb(255, 255, 255) 100%);
   background-image: -webkit-linear-gradient(90deg, rgb(242, 237, 235) 0%, rgb(255, 255, 255) 100%);
   background-image: -ms-linear-gradient(90deg, rgb(242, 237, 235) 0%, rgb(255, 255, 255) 100%);
@@ -14290,7 +14294,7 @@ ul {
 
 .visa-details__img img {
   width: 100%;
-  border-radius: 50%;
+  margin-top: 40px;
 }
 
 .visa-details__points-box {
@@ -17681,6 +17685,7 @@ ul {
   display: block;
   margin-left: -40px;
   margin-right: 310px;
+  margin-top: 250px;
 }
 
 .about-four__img-box {
@@ -17704,7 +17709,8 @@ ul {
 }
 
 .about-four__img-two img {
-  width: auto;
+  width: 300px;
+  height: 250px;
 }
 
 .about-four__experience {
